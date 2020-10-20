@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-feien-client" />
         <module name="eurekaclient" />
-        <module name="eurekafeienclient" />
         <module name="eurekaribbonclient" />
         <module name="eurekaserver" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekafeienclient" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
