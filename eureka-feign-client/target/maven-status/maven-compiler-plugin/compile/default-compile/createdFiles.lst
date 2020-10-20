@@ -1,0 +1,5 @@
+com\forezp\EurekaFeignClientApplication.class
+com\forezp\server\impl\EurekaClientFeignServer.class
+com\forezp\conf\FeignConfig.class
+com\forezp\controller\EurekaFeignClientController.class
+com\forezp\server\EurekaClientFeign.class
